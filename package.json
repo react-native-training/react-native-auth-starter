@@ -1,0 +1,35 @@
+{
+  "name": "RNAmplifyExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-amplify": "^0.2.11",
+    "aws-amplify-react-native": "^0.2.7",
+    "moment": "^2.20.1",
+    "react": "16.2.0",
+    "react-native": "0.52.1",
+    "react-navigation": "^1.0.0-beta.27",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.5.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
+}
